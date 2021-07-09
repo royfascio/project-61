@@ -1,0 +1,112 @@
+body {
+    margin-top: 30px;
+    text-align: center;
+    background: linear-gradient(#E4BEE7 0%, #90CAF9 100%);
+    background-repeat: no-repeat;
+    height: 640px;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+h1 {
+    text-shadow: 2px 2px #F8BBD0;
+    font-size: 20px
+}
+
+p {
+    font-size: 18px;
+    color: #6A1B9A;
+}
+
+#bio {
+    margin-top: 200px;
+    height: 100px;
+    padding: 20px;
+    font-size: 18;
+    text-align: center;
+    background: #18FFFF;
+}
+
+#about {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#bio {
+    height: 175px;
+}
+
+#myfavoritebooks {
+    background-color: crimson;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#mywork {
+    background-color: aqua;
+}
+#myinspiration{
+    text-align: center;
+    background-color: chartreuse
+}
+h1{
+    font-size: 25px;
+}
+#inspiration{
+    margin-bottom: 10px;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+.images{
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+.images:hover{
+    transform: scale(0.9);
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#contact{
+    background-color: firebrick;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 h3{
+    display: inline;
+}
+.contact_1 a{
+    color: white;
+    text-shadow: none;
+}
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top:0px;
+    z-index: 10;
+}
